@@ -1,0 +1,46 @@
+{
+  "name": "The Sanctum Cafe Management Hub",
+  "short_name": "Sanctum Hub",
+  "description": "Installable management hub for The Sanctum Cafe.",
+  "start_url": "/login",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f0f13",
+  "theme_color": "#0f0f13",
+  "categories": ["business", "productivity", "food"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/hub/dashboard",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Inventory",
+      "short_name": "Inventory",
+      "url": "/hub/inventory",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Daily Sales",
+      "short_name": "Sales",
+      "url": "/hub/sales",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
